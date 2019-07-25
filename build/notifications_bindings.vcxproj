@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9E2A4494-078A-C242-0C2D-22B9CC4C9E32}</ProjectGuid>
+    <ProjectGuid>{E30D9F13-ABC0-1811-F052-C64CE1582744}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>notifications_bindings</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
