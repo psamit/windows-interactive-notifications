@@ -59,8 +59,6 @@
     "build": "npm run build64 && npm run build86",
     "build64": " msbuild .\\InteractiveNotifications.sln /p:Configuration=Release /p:Platform=x64",
     "build86": " msbuild .\\InteractiveNotifications.sln /p:Configuration=Release /p:Platform=x86",
-    "postinstall": "node ./scripts/postinstall.js",
-    "preinstall": "node ./scripts/preinstall.js && npm run build && node-gyp rebuild"
   },
   "version": "0.5.1"
 }
