@@ -48,9 +48,6 @@
   "license": "MIT",
   "main": "lib/index.js",
   "name": "windows-interactive-notifications",
-  "os": [
-    "win32"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/felixrieseberg/InteractiveNotifications.git"
