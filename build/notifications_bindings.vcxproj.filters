@@ -13,34 +13,34 @@
     <Filter Include="C:\Users">
       <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit">
-      <UniqueIdentifier>{37E04513-AE3D-76D4-3CA9-24F22ECE417F}</UniqueIdentifier>
+    <Filter Include="C:\Users\Amit">
+      <UniqueIdentifier>{19B06E8A-8A6C-5B64-B84E-57BC627C08ED}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData">
+    <Filter Include="C:\Users\Amit\AppData">
       <UniqueIdentifier>{F852EB63-437C-846A-220F-8D9ED6DAEC1D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming">
+    <Filter Include="C:\Users\Amit\AppData\Roaming">
       <UniqueIdentifier>{D51E5808-912B-5C70-4BB7-475D1DBFA067}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm">
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm">
       <UniqueIdentifier>{1B85D12A-9F9C-E0A8-F82E-74864675B527}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0">
-      <UniqueIdentifier>{12C5F3C4-12A6-840E-AE41-0062EB19FA01}</UniqueIdentifier>
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1">
+      <UniqueIdentifier>{A3C2B6E8-5906-2254-19BE-DE984383598B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules">
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules">
       <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild">
-      <UniqueIdentifier>{5FD7C040-DC12-F9AE-929C-1B41BB589AB8}</UniqueIdentifier>
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm">
+      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild\node_modules">
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm\node_modules">
       <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild\node_modules\node-gyp">
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm\node_modules\node-gyp">
       <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild\node_modules\node-gyp\src">
+    <Filter Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm\node_modules\node-gyp\src">
       <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="..">
@@ -51,8 +51,8 @@
     <ClCompile Include="..\lib\notifications_bindings.cc">
       <Filter>..\lib</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild\node_modules\node-gyp\src\win_delay_load_hook.cc">
-      <Filter>C:\Users\amrit\AppData\Roaming\nvm\v10.11.0\node_modules\electron-rebuild\node_modules\node-gyp\src</Filter>
+    <ClCompile Include="C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\Amit\AppData\Roaming\nvm\v12.13.1\node_modules\npm\node_modules\node-gyp\src</Filter>
     </ClCompile>
     <None Include="..\binding.gyp">
       <Filter>..</Filter>

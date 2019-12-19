@@ -22,19 +22,12 @@ NAN_METHOD(RegisterAppForNotificationSupport)
 		Nan::ThrowTypeError("Invalid arguments, expected arguments are: shortcut name[string], app id [string]");
 		return;
 	}
-	
-	Local<String> shortcutHandle = Nan::To<String>(info[0]).ToLocalChecked();
-	Local<String> appIdHandle = Nan::To<String>(info[1]).ToLocalChecked();
-	
-	String::Value shortcutStringValue(shortcutHandle);
-	String::Value appIdStringValue(appIdHandle);
 
-	HRESULT hr = InteractiveNotifications::RegisterAppForNotificationSupport((PCWSTR)*shortcutStringValue, (PCWSTR)*appIdStringValue);
-	
+	HRESULT hr = InteractiveNotifications::RegisterAppForNotificationSupport((PCWSTR)*info[0], (PCWSTR)*info[1]);
+
 	if (hr != S_OK)
 	{
-		Nan::ThrowError(String::Concat(Nan::New<String>("RegisterAppForNotificationsSupport Failed with error code:").ToLocalChecked(),
-			Nan::To<String>(Nan::New<Integer>(static_cast<int>(hr))).ToLocalChecked()));
+		Nan::ThrowError(Nan::New<String>("RegisterAppForNotificationsSupport Failed").ToLocalChecked());
 		return;
 	}
 }
